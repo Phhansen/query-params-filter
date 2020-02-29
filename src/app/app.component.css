@@ -1,0 +1,90 @@
+.product-list {
+    display: flex;
+    padding: 10px;
+    margin: 0 0 15px 0;
+    list-style-type: none;
+}
+
+.product  {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid rgba(0,0,0,0.09);
+}
+
+.product-title {
+    display: block;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.product-platform {
+    display: block;
+    margin: -5px 0 10px 0;
+    font-size: 0.8rem;
+    color: #3d3d3d;
+}
+
+.product-footer {
+    display: flex;
+    align-items: center;
+
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.product-price {
+    display: block;
+    margin: 0 0 0 auto;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.product-genre {
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 0;
+
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1px solid #575859;
+    color: #3d3d3d;
+    background: #f0f0f0;
+}
+
+.product-filters {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product-filter-button {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 0 5px;
+
+    text-decoration: none;
+    color: white;
+    background: #5e7eff;
+    border-radius: 3px;
+}
+.product-filter-button:hover {
+    background: #3b62ff;
+}
+.product-filter-button.product-filter-button--clear {
+    background: #ff5e5e;
+}
+.product-filter-button.product-filter-button--clear:hover {
+    background: #ff3b3b;
+}
+
+.warning {
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 10px;
+    font-size: 1.8rem;
+    color: white;
+    background: #ff837a;
+    border: 1px solid #ff5b4f;
+    border-radius: 3px;
+}
