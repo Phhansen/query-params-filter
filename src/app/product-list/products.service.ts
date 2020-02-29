@@ -5,23 +5,44 @@ import { Product } from './product.model';
 const PRODUCTS: Product[] = [
     {
         id: 1,
-        name: 'Spyro the dragon',
-        price: 19.99,
-        platform: 'playstation',
+        name: 'Ori and the blind forest',
+        price: 9.99,
+        platform: 'xbox',
         genre: 'platformer'
     },
     {
         id: 2,
+        name: 'Spyro the dragon',
+        price: 29.99,
+        platform: 'playstation',
+        genre: 'platformer'
+    },
+    {
+        id: 3,
+        name: 'Nioh',
+        price: 59.99,
+        platform: 'xbox',
+        genre: 'rpg'
+    },
+    {
+        id: 4,
         name: 'Final Fantasy VII',
-        price: 39.99,
+        price: 59.99,
         platform: 'switch',
         genre: 'rpg'
     },
     {
-        id: 3,
+        id: 5,
         name: 'Forza Horizons',
-        price: 5.99,
+        price: 59.99,
         platform: 'xbox',
+        genre: 'racing'
+    },
+    {
+        id: 6,
+        name: "Gran Turismo",
+        price: 59.99,
+        platform: 'playstation',
         genre: 'racing'
     }
 ];

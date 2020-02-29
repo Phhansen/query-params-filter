@@ -1,13 +1,18 @@
 .product-list {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 0 0 15px 0;
     list-style-type: none;
 }
 
 .product  {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
     padding: 10px 20px;
-    margin: 0 5px;
+    margin: 0 5px 10px 5px;
     border: 1px solid rgba(0,0,0,0.09);
 }
 
@@ -29,6 +34,7 @@
     align-items: center;
 
     padding: 10px 0;
+    margin-top: auto;
     border-top: 1px solid #e8e8e8;
 }
 
